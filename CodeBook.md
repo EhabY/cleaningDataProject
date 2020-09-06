@@ -7,17 +7,17 @@ Steps to achieve the *avgData.txt* dataset from the original **UCI HAR Dataset**
 2. Read the train and test data for each variable (ID, Activity, and the filtered features).
 3. Merge the rows of each variable, each on its own.
 4. Merge the columns of the resulting data tables/frames.
-5. Read the activities and replace the numbers with their labels.
+5. Replace the activity number with their respective label.
 6. Tidy the data by making the variables readable:
-  * Starting with f --> frequency
-  * Starting with t --> time
-  * Acc --> Accelerometer
-  * Gyro --> Gyroscope
-  * Mag --> Magnitude
-  * mean() --> Mean
-  * std() --> STD
-  * meanFreq() --> Mean-Frequency
-  * BodyBody --> Body
+    * Starting with f --> frequency
+    * Starting with t --> time
+    * Acc --> Accelerometer
+    * Gyro --> Gyroscope
+    * Mag --> Magnitude
+    * mean() --> Mean
+    * std() --> STD
+    * meanFreq() --> Mean-Frequency
+    * BodyBody --> Body
 7. Group the tidy data by **ID** and **Activity** then get the mean of each group (summarize) 
 
 ## Description
@@ -69,6 +69,7 @@ Columns 43 through 81 are the same as the above columns (3:42) but in frequency 
 
 ## Notes
 
+* These values are the mean for all observations grouped by the subjects' IDs and each activity they performed.
 * The Jerk signals were derived from the body linear acceleration and angular velocity in time domain.
 * The magnitude of the three-dimensional signals were calculated using the Euclidean norm.
 * The values of the features (columns 3:81) were normalized and bounded within [-1, 1].
