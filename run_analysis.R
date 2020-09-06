@@ -46,4 +46,6 @@ avgData <- total_df %>%
                 group_by(ID, Activity) %>%
                 summarize(across(everything(), mean)) # OR summarize_all("mean")
 
-fwrite(avgData, "avgData.txt")
+#fwrite(avgData, "avgData.txt")
+write.table(avgData, "avgData.txt", row.names = FALSE)
+
