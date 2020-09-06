@@ -9,15 +9,15 @@ Steps to achieve the *avgData.txt* dataset from the original **UCI HAR Dataset**
 4. Merge the columns of the resulting data tables/frames.
 5. Read the activities and replace the numbers with their labels.
 6. Tidy the data by making the variables readable:
-  * Starting with f --> frequency
-  * Starting with t --> time
-  * Acc --> Accelerometer
-  * Gyro --> Gyroscope
-  * Mag --> Magnitude
-  * mean() --> Mean
-  * std() --> STD
-  * meanFreq() --> Mean-Frequency
-  * BodyBody --> Body
+    * Starting with f --> frequency
+    * Starting with t --> time
+    * Acc --> Accelerometer
+    * Gyro --> Gyroscope
+    * Mag --> Magnitude
+    * mean() --> Mean
+    * std() --> STD
+    * meanFreq() --> Mean-Frequency
+    * BodyBody --> Body
 7. Group the tidy data by **ID** and **Activity** then get the mean of each group (summarize) 
 
 ## Description
