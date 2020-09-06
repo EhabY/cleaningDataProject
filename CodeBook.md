@@ -7,7 +7,7 @@ Steps to achieve the *avgData.txt* dataset from the original **UCI HAR Dataset**
 2. Read the train and test data for each variable (ID, Activity, and the filtered features).
 3. Merge the rows of each variable, each on its own.
 4. Merge the columns of the resulting data tables/frames.
-5. Read the activities and replace the numbers with their labels.
+5. Replace the activity number with their respective label.
 6. Tidy the data by making the variables readable:
     * Starting with f --> frequency
     * Starting with t --> time
