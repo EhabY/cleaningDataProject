@@ -35,7 +35,7 @@ names(total_df) <- gsub("Gyro", "Gyroscope", names(total_df))
 names(total_df) <- gsub("Mag", "Magnitude", names(total_df))
 names(total_df) <- gsub("mean\\(\\)", "Mean", names(total_df))
 names(total_df) <- gsub("std\\(\\)", "STD", names(total_df))
-names(total_df) <- gsub("meanFreq\\(\\)", "Mean-Frequency", names(total_df)) # repetitive
+names(total_df) <- gsub("meanFreq\\(\\)", "Mean-Frequency", names(total_df))
 names(total_df) <- gsub("BodyBody", "Body", names(total_df)) # repetitive
 
 
