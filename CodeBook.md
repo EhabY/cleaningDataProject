@@ -69,6 +69,7 @@ Columns 43 through 81 are the same as the above columns (3:42) but in frequency 
 
 ## Notes
 
+* These values are the mean for all observations grouped by the subjects' IDs and each activity they performed.
 * The Jerk signals were derived from the body linear acceleration and angular velocity in time domain.
 * The magnitude of the three-dimensional signals were calculated using the Euclidean norm.
 * The values of the features (columns 3:81) were normalized and bounded within [-1, 1].
